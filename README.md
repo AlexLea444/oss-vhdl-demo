@@ -1,7 +1,7 @@
 ## build.sh
 Alex Lea
 
-This demo program and script were created to assist others in utilizing the default oss-cad-suite build to program an UPduino. The below requirements demonstrate the steps required for me to get the programs working on my machine, but your experience may differ.
+This demo program and script were created to assist others in utilizing the default [oss-cad-suite](https://github.com/YosysHQ/oss-cad-suite-build) build to program an UPduino. The below requirements demonstrate the steps required for me to get the programs working on my machine, but your experience may differ.
 I have made some minor modifications, but the build script itself was largely copied from Tufts alumnus Lucas Polidori.
 
 Please feel free to contact me at alexlea444@gmail.com.
@@ -22,9 +22,8 @@ Here are the requirements for one to use this script:
 4. This script uses ```.vhd``` for vhdl files, not ```.vhdl```.
 5. The script should be run as ```bash build.sh [program name]```.
 
->[!NOTE]
->The following steps pertain to usage of iceprog on a Linux (Debian) device. If you are using macOS, different steps may be required to run iceprog on your device.
-6. To improve long-term QoL, set a udev rule to allow access to the UPduino.
+
+6. [The following steps pertain to usage of iceprog on a Linux (Debian) device. If you are using macOS, different steps may be required to run iceprog on your device.] To improve long-term QoL, set a udev rule to allow access to the UPduino.
 
 To verify IDs, use usb-devices. For me, this is the rule as follows:
 ```bash
